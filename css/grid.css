@@ -1,0 +1,295 @@
+* {
+	box-sizing: border-box;
+}
+
+.grid {
+	display: grid;
+}
+
+@media (max-width: 64rem) {
+    /*LANDING PAGE*/
+    h1.hero-text {
+    font-size: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
+    /*ABOUT ME*/
+    h1.about-me-title{
+    font-size: 3rem;
+    }
+    p.about-me-description{
+        font-size:0.85rem;
+    }
+
+        img.btm-picture {
+  padding-left: 6rem;
+  padding-right: 6rem;
+  }
+
+      .btm-photos-split {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+  .project-description, .project-caption{
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    margin:auto;
+  }
+
+}
+
+@media (max-width: 51.25rem) {
+    /*LANDING PAGE*/
+  h1.hero-text {
+    font-size: 2.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+    .project-titling{
+    font-size: 1.5rem;
+  }
+
+  .nav-name{
+    font-size: 1.25rem;
+    margin-left: 1rem;
+  }
+
+.nav-main-item{
+    font-size: 0.85rem;
+    margin-right: 1rem;
+    margin-left: 0rem;
+  }
+
+  .projects p, .projects h2{
+    font-size: 1.25rem;
+}
+    /*ABOUT ME*/
+    h1.about-me-title{
+        padding-top: 0rem;
+        margin-top: 0rem;
+          text-align: center;
+    }
+    p.about-me-description{
+        margin: auto;
+        margin-bottom: 0.75rem;
+    }
+    .split-about-me {
+        flex-direction: column;
+    }
+    .about-me-picture{
+    max-width:65%;
+    padding-top: 2rem;
+    }
+    .left-column{
+        padding-bottom: 0rem;
+        justify-content: center;
+    }
+
+    a.about-me-contact{
+      margin: auto;
+      display: block;
+      font-size: 2rem;
+    }
+
+    .back-to-projects, span#arrow-sizing{
+    font-size:0.95rem;
+  }
+  .project-title{
+    font-size: 3.25rem;
+  }
+
+  .project-subheading{
+    font-size: 2rem;
+  }
+
+  .project-intro{
+    font-size:0.95rem;
+        line-height: 1.25rem;
+  }
+
+  .project-description, .project-caption{
+    font-size:0.95rem;
+    line-height: 1.25rem;
+  }
+
+          img.btm-picture {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  }
+
+    .btm-photos-split {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+  img.btm-picture {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  }
+
+  .btm-photos-split {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+img#btm-cover{
+  padding-top: 2rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-bottom: 1rem;
+}
+
+.btm-picture-split {
+    margin-bottom: 0.5rem;
+}
+
+.video iframe {
+  position: absolute;
+    padding-left: 0rem;
+  padding-right: 0rem;
+  padding-bottom: 0rem;
+  /* z-index: -5; */
+    scale: 100%;
+}
+
+
+}
+
+@media (max-width: 40.25rem) {
+    /*LANDING PAGE*/
+  h1.hero-text {
+    font-size: 1.70rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+  }
+
+  .project-titling{
+    font-size: 1.25rem;
+  }
+
+.nav-name{
+    font-size: 1.25rem;
+    margin-left: 1rem;
+  }
+
+.nav-main-item{
+    font-size: 0.75rem;
+    margin-right: 1rem;
+    margin-left: 0rem;
+  }
+  
+.projects p, .projects h2{
+    font-size: 0.95rem;
+}
+
+    /*ABOUT ME*/
+    h1.about-me-title{
+            font-size: 2.80rem;
+    }
+    p.about-me-description{
+        margin: auto;
+        margin-bottom: 0.75rem;
+        /* font-size: 0.80rem; */
+    }
+    .about-me-picture{
+    max-width:65%;
+    padding-top: 2rem;
+    margin-bottom: 0rem;
+    }
+    .left-column{
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .right-column{
+        padding-top: 2rem;
+    }
+
+    /*FOOTER*/
+    h3.contact-header{
+        font-size:2rem;
+    }
+
+    .instagram-icon, .linkedin-icon, .mail-icon{
+        width: 24px;
+        height: 24px;
+    }
+
+      .btm-picture-split {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+
+  .back-to-projects, span#arrow-sizing{
+    font-size:0.85rem;
+  }
+  .project-title{
+    font-size: 3rem;
+  }
+
+  .project-subheading{
+    font-size: 1.75rem;
+  }
+
+  .project-intro{
+    font-size:0.85rem;
+   margin-left: 1.5rem;
+    margin-right: 1.5rem;
+        line-height: 1.25rem;
+  }
+
+  .project-description, .project-caption{
+    font-size:0.85rem;
+    line-height: 1.25rem;
+    /* margin-left: 3.5rem;
+    margin-right: 3.5rem; */
+  }
+
+
+
+  h3.contact-header, h2.contact-header{
+        font-size: 2.25rem;
+  }
+
+  img.btm-picture {
+  padding-left: 0rem;
+  padding-right: 0rem;
+  }
+
+  .btm-photos-split {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+
+img#btm-cover{
+  padding-top: 2rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-bottom: 1rem;
+}
+
+.btm-picture-split {
+    margin-bottom: 0.5rem;
+}
+
+.video iframe {
+  position: absolute;
+    padding-left: 0rem;
+  padding-right: 0rem;
+  padding-bottom: 0rem;
+  /* z-index: -5; */
+    scale: 100%;
+}
+
+.project-skills, .project-teammates{
+    font-size:0.85rem;
+    line-height: 1.25rem;
+}
+
+
+    
+    
+}
